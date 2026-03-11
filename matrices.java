@@ -29,3 +29,4 @@ public class matrices {
 	}
 
 }
+//frase.split(separa en lo que este en las comillas" ") es un arreglo de palabras
