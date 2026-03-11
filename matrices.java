@@ -29,4 +29,10 @@ public class matrices {
 	}
 
 }
+
 //frase.split(separa en lo que este en las comillas" ") es un arreglo de palabras
+// for (String string : v) colecciona por tipo de dato en la variable foreach itera solo
+/*
+
+*/
+
