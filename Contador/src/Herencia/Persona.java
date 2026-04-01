@@ -1,24 +1,29 @@
 package Herencia;
 
-public Persona() {
-	// TODO Auto-generated constructor stub
+public class Persona {
+
 	private String nombre;
 	private int edad;
-	
+	public Persona(String nombre, int edad) {
+		super();
+		this.nombre = nombre;
+		this.edad = edad;
+	}
 	public String getNombre() {
 		return nombre;
 	}
-	
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	public String getEdad() {
+	public int getEdad() {
 		return edad;
 	}
-	
-	public void setEdad(String edad) {
+	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-		
+	public void saludar() {
+		System.out.println("hola, mi nombre es: " + this.nombre + "Mi Edad es: " + this.edad);
+
+	}
+
 }
